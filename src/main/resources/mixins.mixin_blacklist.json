@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "lol.roxxane.mixin_blacklist.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"refmap": "mixins.mixin_blacklist.refmap.json"
+}
