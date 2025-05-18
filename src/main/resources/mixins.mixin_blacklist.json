@@ -5,5 +5,6 @@
 	"injectors": {
 		"defaultRequire": 1
 	},
-	"refmap": "mixins.mixin_blacklist.refmap.json"
+	"refmap": "mixins.mixin_blacklist.refmap.json",
+	"plugin": "lol.roxxane.mixin_blacklist.MixinBlacklistMixinConfigPlugin"
 }

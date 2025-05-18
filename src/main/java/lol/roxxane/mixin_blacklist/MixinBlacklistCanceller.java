@@ -8,6 +8,7 @@ import java.util.List;
 public class MixinBlacklistCanceller implements MixinCanceller {
 	@Override
 	public boolean shouldCancel(List<String> target_class_names, String mixin_class_name) {
+		MixinBlacklist.LOGGER.info("EEEEEEEEEEEEEEEEEE");
 		return true;
 		/*
 		MixinBlacklist.LOGGER.info("WEEEEEEEEEEEE");
