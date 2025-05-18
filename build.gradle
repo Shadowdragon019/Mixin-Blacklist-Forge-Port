@@ -136,6 +136,16 @@ dependencies {
     implementation(jarJar("com.github.bawnorton.mixinsquared:mixinsquared-forge:0.3.2-beta.4")) {
         jarJar.ranged(it, "[0.3.2-beta.4,)")
     }
+    //jarJar("com.github.bawnorton.mixinsquared:mixinsquared-common:0.3.2-beta.4")
+    //jarJar("com.github.bawnorton.mixinsquared:mixinsquared-forge:[0.3.2-beta.4,0.3.2-beta.4]")
+    /*
+    modRuntimeOnly(jarJar("dev.engine-room.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}") {
+        version {
+            strictly "[1.0,2.0)"
+            prefer flywheel_version
+        }
+    })
+     */
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings

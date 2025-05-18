@@ -6,5 +6,8 @@
 		"defaultRequire": 1
 	},
 	"refmap": "mixins.mixin_blacklist.refmap.json",
-	"plugin": "lol.roxxane.mixin_blacklist.MixinBlacklistMixinConfigPlugin"
+	"plugin": "lol.roxxane.mixin_blacklist.MixinBlacklistMixinConfigPlugin",
+	"mixins": [
+		"TestMixin"
+	]
 }
